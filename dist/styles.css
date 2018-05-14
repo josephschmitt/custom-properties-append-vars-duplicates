@@ -1,0 +1,15 @@
+:root {
+  --myColor: red;
+}
+
+.my-component {
+  color: red;
+  color: var(--myColor);
+  background: lightgray;
+  background: var(--myBackgroundColor);
+}
+
+:root {
+  --myColor: red;
+  --myBackgroundColor: lightgray;
+}

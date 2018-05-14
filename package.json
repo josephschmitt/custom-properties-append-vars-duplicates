@@ -1,0 +1,16 @@
+{
+  "name": "custom-properties-append-vars-duplicates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss -o dist/styles.css src/styles.pcss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-cli": "^5.0.0",
+    "postcss-custom-properties": "^7.0.0"
+  }
+}
