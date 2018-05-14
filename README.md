@@ -1,10 +1,10 @@
 # Duplicate Variables using `postcss-custom-properties`
 
-## Setup
-
 I have a super simple src postcss file with two custom properties:
 1. `--myColor`: Declared in a `:root` selector directly in the postcss file
 2. `--myBackgroundColor`: Added via the `variables` JavaScript plugin API.
+
+After cloning the repo, run `npm install` and then `npm run build`.
 
 ## Expected Result
 
